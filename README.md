@@ -22,6 +22,7 @@ The Data Retrieval Carbon Cell Assignment project is developed to serve as an ed
 - Spring Security
 - JSON Web Tokens (JWT)
 - Lombok
+- MySQL 
 
 ## Usage
 
@@ -52,6 +53,19 @@ The project follows a standard Spring Boot application structure. Here are some 
 - `src/main/java/com/example/Data/Retrieval/CarbonCell/Assignment/repository`: Contains repositories for interacting with the database.
 - `src/main/java/com/example/Data/Retrieval/CarbonCell/Assignment/configuration`: Contains configuration classes, including Spring Security configuration.
 
+![Screenshot 2024-04-02 162550](https://github.com/arpitraj11/arpitraj11-Data-Retrieval-Carbon-Cell-Assignment/assets/114294354/70e27321-e6bd-45a9-9bf6-471a955ccdd3)
+
+![Screenshot 2024-04-02 162625](https://github.com/arpitraj11/arpitraj11-Data-Retrieval-Carbon-Cell-Assignment/assets/114294354/2f90f29c-bdbd-4348-a986-5275a9a07089)
+
+![Screenshot 2024-04-02 162658](https://github.com/arpitraj11/arpitraj11-Data-Retrieval-Carbon-Cell-Assignment/assets/114294354/23323030-048d-4f1d-a446-0555244e4a3d)
+
+![Screenshot 2024-04-02 162801](https://github.com/arpitraj11/arpitraj11-Data-Retrieval-Carbon-Cell-Assignment/assets/114294354/b169536b-f958-41db-8552-b73d49fb3ef0)
+
+![Screenshot 2024-04-02 231604](https://github.com/arpitraj11/arpitraj11-Data-Retrieval-Carbon-Cell-Assignment/assets/114294354/e8645a29-435f-4627-ae2b-be3e77cf9d2f)
+
+
+
+
 ## Implementation of JWT Authentication and Endpoints
 
 ### Proper Implementation of JWT Authentication
@@ -59,6 +73,9 @@ The project ensures the proper implementation of JWT (JSON Web Token) authentica
 
 ### Documentation of API Endpoints Using Swagger
 The API documentation can be accessed using `Swagger UI. Visit http://localhost:8080/swagger-ui/index.html`
+
+![Screenshot 2024-04-02 231217](https://github.com/arpitraj11/arpitraj11-Data-Retrieval-Carbon-Cell-Assignment/assets/114294354/69a19aea-9737-49ce-b5b6-5cd63733fa9b)
+
 
 
 
