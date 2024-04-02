@@ -8,8 +8,8 @@ This project is aimed at retrieving and analyzing data related to carbon cells. 
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+
+
 
 ## Introduction
 
@@ -52,18 +52,14 @@ The project follows a standard Spring Boot application structure. Here are some 
 - `src/main/java/com/example/Data/Retrieval/CarbonCell/Assignment/repository`: Contains repositories for interacting with the database.
 - `src/main/java/com/example/Data/Retrieval/CarbonCell/Assignment/configuration`: Contains configuration classes, including Spring Security configuration.
 
-## Contributing
+## Implementation of JWT Authentication and Endpoints
 
-Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
+### Proper Implementation of JWT Authentication
+The project ensures the proper implementation of JWT (JSON Web Token) authentication by generating and verifying tokens securely. The project provides functional endpoints for user registration, login, and logout. These endpoints allow users to securely create an account, authenticate themselves, and terminate their session when needed. Each endpoint follows RESTful principles and includes appropriate request and response handling.
 
-1. Fork the repository.
-2. Create a new branch for your feature (`git checkout -b feature/my-feature`).
-3. Commit your changes (`git commit -am 'Add my feature'`).
-4. Push to the branch (`git push origin feature/my-feature`).
-5. Create a new Pull Request.
+### Documentation of API Endpoints Using Swagger
+The API documentation can be accessed using `Swagger UI. Visit http://localhost:8080/swagger-ui/index.html`
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
