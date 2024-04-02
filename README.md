@@ -60,10 +60,9 @@ The project follows a standard Spring Boot application structure. Here are some 
 ![Screenshot 2024-04-02 162658](https://github.com/arpitraj11/arpitraj11-Data-Retrieval-Carbon-Cell-Assignment/assets/114294354/23323030-048d-4f1d-a446-0555244e4a3d)
 
 ![Screenshot 2024-04-02 162801](https://github.com/arpitraj11/arpitraj11-Data-Retrieval-Carbon-Cell-Assignment/assets/114294354/b169536b-f958-41db-8552-b73d49fb3ef0)
+![Screenshot 2024-04-03 001309](https://github.com/arpitraj11/arpitraj11-Data-Retrieval-Carbon-Cell-Assignment/assets/114294354/38c36c50-d4ca-4c14-9a3b-9b494899358c)
 
 ![Screenshot 2024-04-02 231604](https://github.com/arpitraj11/arpitraj11-Data-Retrieval-Carbon-Cell-Assignment/assets/114294354/e8645a29-435f-4627-ae2b-be3e77cf9d2f)
-
-
 
 
 ## Implementation of JWT Authentication and Endpoints
