@@ -45,6 +45,7 @@ public class SecurityConfig  {
                 .authorizeHttpRequests(
                         req->req.requestMatchers("/login/**","/register/**")
                                 .permitAll()
+                                .requestMatchers(Auth_Whitelist).permitAll()
                                 .requestMatchers("/fetchApi/**").hasAuthority("MEMBER")
                                 .anyRequest()
                                 //.requestMatchers("/admin_only/**").hasAuthority("ADMIN")
@@ -57,6 +58,15 @@ public class SecurityConfig  {
                 .build();
 
     }
+    private static final String[] Auth_Whitelist = {
+            "/api/v1/auth/**",
+            "/v3/api-docs/**",
+            "/v3/api-docs.yaml",
+            "/swagger-ui/**",
+            "/swagger-ui.html",
+            "/fetchApi/**"
+    };
+
 
     @Bean
     public PasswordEncoder passwordEncoder() {
